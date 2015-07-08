@@ -13,11 +13,14 @@ Plugin 'bling/vim-airline'
 Plugin 'pangloss/vim-javascript'
 Plugin 'tomasr/molokai'
 Plugin 'hdima/python-syntax'
+Plugin 'tpope/vim-fugitive'
+Plugin 'ntpeters/vim-better-whitespace'
 
 call vundle#end()
 filetype plugin indent on
 " END Vundle config
 
+autocmd VimEnter * ToggleStripWhitespaceOnSave
 syntax on
 color molokai
 set number
@@ -25,6 +28,10 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set softtabstop=4
+set colorcolumn=80
+set laststatus=2
+set nowrap
+" au VimEnter * ToggleStripWhitespaceOnSave
 
 let python_highlight_all = 1
 
