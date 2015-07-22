@@ -15,6 +15,12 @@ Plugin 'tomasr/molokai'
 Plugin 'hdima/python-syntax'
 Plugin 'tpope/vim-fugitive'
 Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'isRuslan/vim-es6'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'Glench/Vim-Jinja2-Syntax'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'groenewege/vim-less'
+Plugin 'cakebaker/scss-syntax.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -41,4 +47,4 @@ map <C-t> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 " Remove trailing whitespaces on file save
 autocmd VimEnter * ToggleStripWhitespaceOnSave
-autocmd BufRead,BufNewFile,BufEnter *.js,*.html,*.css,*.jade,*.scss,*.json setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd BufRead,BufNewFile,BufEnter *.js,*.html,*.css,*.jade,*.scss,*.less,*.json setlocal tabstop=2 shiftwidth=2 softtabstop=2
