@@ -21,6 +21,7 @@ Plugin 'Glench/Vim-Jinja2-Syntax'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'groenewege/vim-less'
 Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'kshenoy/vim-signature'
 
 call vundle#end()
 filetype plugin indent on
