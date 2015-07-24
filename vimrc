@@ -22,6 +22,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'groenewege/vim-less'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'kshenoy/vim-signature'
+Plugin 'kien/ctrlp.vim'
 
 call vundle#end()
 filetype plugin indent on
