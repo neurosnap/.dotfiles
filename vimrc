@@ -23,6 +23,7 @@ Plugin 'groenewege/vim-less'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'kshenoy/vim-signature'
 Plugin 'digitaltoad/vim-jade'
+Plugin 'fatih/vim-go'
 
 call vundle#end()
 filetype plugin indent on
