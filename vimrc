@@ -24,6 +24,7 @@ Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'kshenoy/vim-signature'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'fatih/vim-go'
+Plugin 'christoomey/vim-tmux-navigator'
 
 call vundle#end()
 filetype plugin indent on
