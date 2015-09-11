@@ -51,4 +51,4 @@ map <C-t> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 " Remove trailing whitespaces on file save
 autocmd VimEnter * ToggleStripWhitespaceOnSave
-autocmd BufRead,BufNewFile,BufEnter *.js,*.html,*.css,*.jade,*.scss,*.less,*.json setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd BufRead,BufNewFile,BufEnter *.jsx,*.js,*.html,*.css,*.jade,*.scss,*.less,*.json setlocal tabstop=2 shiftwidth=2 softtabstop=2
