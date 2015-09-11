@@ -18,13 +18,13 @@ Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'isRuslan/vim-es6'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'Glench/Vim-Jinja2-Syntax'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'groenewege/vim-less'
 Plugin 'cakebaker/scss-syntax.vim'
 Plugin 'kshenoy/vim-signature'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'fatih/vim-go'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'mxw/vim-jsx'
 
 call vundle#end()
 filetype plugin indent on
