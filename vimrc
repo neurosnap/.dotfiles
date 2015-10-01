@@ -41,6 +41,9 @@ set colorcolumn=80
 set laststatus=2
 set nowrap
 set cursorline
+set rnu
+
+set pastetoggle=<F10>
 
 let g:airline#extensions#tabline#enabled = 1
 let python_highlight_all = 1
