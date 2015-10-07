@@ -47,6 +47,7 @@ set pastetoggle=<F10>
 
 let g:airline#extensions#tabline#enabled = 1
 let python_highlight_all = 1
+let g:go_fmt_command = "goimports"
 
 " Configure NERDTree to open when pressing ctr+t
 map <C-t> :NERDTreeToggle<CR>
