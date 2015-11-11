@@ -25,6 +25,7 @@ Plugin 'digitaltoad/vim-jade'
 Plugin 'fatih/vim-go'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'mxw/vim-jsx'
+Plugin 'mustache/vim-mustache-handlebars'
 
 call vundle#end()
 filetype plugin indent on
