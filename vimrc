@@ -49,6 +49,8 @@ let g:airline#extensions#tabline#enabled = 1
 let python_highlight_all = 1
 let g:go_fmt_command = "goimports"
 
+nnoremap <silent> <leader>y :set noexpandtab<CR>:%retab!<CR>
+nnoremap Q <nop>
 " Configure NERDTree to open when pressing ctr+t
 map <C-t> :NERDTreeToggle<CR>
 " Close vim if NERDTree is the only window open
