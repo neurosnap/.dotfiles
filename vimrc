@@ -27,6 +27,7 @@ Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'mxw/vim-jsx'
 Plugin 'JulesWang/css.vim'
 Plugin 'hail2u/vim-css3-syntax'
+Plugin 'mtscout6/syntastic-local-eslint.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -50,6 +51,16 @@ set pastetoggle=<F10>
 let g:airline#extensions#tabline#enabled = 1
 let python_highlight_all = 1
 let g:go_fmt_command = "goimports"
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 1
+let g:syntastic_javascript_checkers = ['eslint']
 
 nnoremap <silent> <leader>y :set noexpandtab<CR>:%retab!<CR>
 nnoremap Q <nop>
