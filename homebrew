@@ -3,7 +3,10 @@ bash-completion
 bash-git-prompt
 git
 node
-tmux
-wget
+pandoc
+python
 python3
-
+tmux
+vim
+wget
+wine
