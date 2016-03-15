@@ -47,20 +47,20 @@ set nowrap
 set cursorline
 set rnu
 
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+set backspace=indent,eol,start
 set pastetoggle=<F10>
+set clipboard=unnamed
 
 let g:airline#extensions#tabline#enabled = 1
 let python_highlight_all = 1
 let g:go_fmt_command = "goimports"
 let g:jsx_ext_required = 0 " Allow JSX in normal JS files
-
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 1
 let g:syntastic_javascript_checkers = ['eslint']
 
