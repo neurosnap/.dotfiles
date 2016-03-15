@@ -28,6 +28,7 @@ Plugin 'mxw/vim-jsx'
 Plugin 'JulesWang/css.vim'
 Plugin 'hail2u/vim-css3-syntax'
 Plugin 'mtscout6/syntastic-local-eslint.vim'
+Plugin 'elzr/vim-json'
 
 call vundle#end()
 filetype plugin indent on
@@ -51,6 +52,7 @@ set pastetoggle=<F10>
 let g:airline#extensions#tabline#enabled = 1
 let python_highlight_all = 1
 let g:go_fmt_command = "goimports"
+let g:jsx_ext_required = 0 " Allow JSX in normal JS files
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
