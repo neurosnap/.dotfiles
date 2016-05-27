@@ -1,0 +1,13 @@
+'*':
+  'editor':
+    'preferredLineLength': 100
+  'welcome':
+    'showOnStartup': false
+  'tabs-to-spaces':
+    'onSave': 'untabify'
+'.source.makefile':
+  'tabs-to-spaces':
+    'onSave': 'tabify'
+'.text.html.php':
+  'tabs-to-spaces':
+    'onSave': 'tabify'
