@@ -1,0 +1,7 @@
+[user]
+	name = Eric Bower
+	email = neurosnap@gmail.com
+[core]
+	editor = /usr/bin/vim
+[diff]
+    compactionHeuristic = true
