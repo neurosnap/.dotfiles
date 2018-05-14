@@ -7,22 +7,17 @@ call vundle#begin()
 
 " Plugins go here
 Plugin 'scrooloose/nerdtree'
-Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'pangloss/vim-javascript'
 Plugin 'tomasr/molokai'
 Plugin 'hdima/python-syntax'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'isRuslan/vim-es6'
-Plugin 'terryma/vim-multiple-cursors'
 Plugin 'kshenoy/vim-signature'
 Plugin 'fatih/vim-go'
 Plugin 'christoomey/vim-tmux-navigator'
-Plugin 'JulesWang/css.vim'
-Plugin 'hail2u/vim-css3-syntax'
 Plugin 'elzr/vim-json'
 Plugin 'w0rp/ale'
-Plugin 'StanAngeloff/php.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -60,4 +55,4 @@ map <C-t> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 " Remove trailing whitespaces on file save
 autocmd VimEnter * ToggleStripWhitespaceOnSave
-autocmd BufRead,BufNewFile,BufEnter *.jsx,*.js,*.html,*.css,*.jade,*.scss,*.less,*.json setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd BufRead,BufNewFile,BufEnter *.ts,*.tsx,*.yml,*.jsx,*.js,*.html,*.css,*.jade,*.scss,*.less,*.json setlocal tabstop=2 shiftwidth=2 softtabstop=2
